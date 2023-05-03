@@ -20,6 +20,7 @@
   "dependencies": {
     "@googlemaps/js-api-loader": "^1.15.1",
     "dotenv": "^16.0.3",
+    "mapbox-gl": "^2.14.1",
     "vite": "^4.3.4"
   }
 }

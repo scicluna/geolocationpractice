@@ -58,7 +58,6 @@ loader.load().then(async () => {
                 };
 
                 placesService.nearbySearch(request, (results, status) => {
-                    console.log(results)
                     if (status === google.maps.places.PlacesServiceStatus.OK) {
                         for (let i = 0; i < results.length; i++) {
                             createMarker(results[i]);
